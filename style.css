@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#container {
+    margin: 0 auto;
+    width: 92.5%;
+    max-width: 1000px;
+}
+
+header {
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    border-top: none;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+legend {
+    font-size: 18pt;
+    margin: 0;
+}
+
+label {
+    display: block;
+}
+
+input {
+    background-color: #dedede;
+    border: 1px dotted #666666;
+    color: black;
+    padding: 4px;
+    margin: 8px;
+
+}
+
+fieldset {
+    border: none;
+}
+
+.correct-answer {
+    background-color: green;
+    color: white;
+}
+
+.incorrect-answer {
+    background-color: red;
+    color: white;
+}
